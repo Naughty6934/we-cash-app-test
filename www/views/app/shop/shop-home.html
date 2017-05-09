@@ -1,0 +1,184 @@
+<ion-view view-title="Shop" class="shop-home-view">
+  <ion-content>
+    <div class="list shop-home-options-list">
+      <a class="item shop-home-option-item" ui-sref="app.shop.sale">
+        <div class="row">
+          <div class="col">
+            <pre-img ratio="_2_1" helper-class="shop-home-option-image-outer">
+              <img ng-src="http://lorempixel.com/300/150" spinner-on-load>
+              <img ng-src="img/sale.png" spinner-on-load>
+            </pre-img>
+          </div>
+        </div>
+        <div class="row option-copy">
+          <div class="col col-75">
+            <span>Shop Now</span>
+          </div>
+          <div class="col col-25 option-icon">
+            <i class="icon ion-chevron-right"></i>
+          </div>
+        </div>
+      </a>
+    </div>
+
+
+    <div class="row  option-copy item item-divider shop-section-title">
+      <div class="col col-33">
+        USD
+      </div>
+      <div class="col col-33 col-offset-33">
+        <a class="button button-small button-dark section-action" ui-sref="app.shop.map">SeeAll</a>
+      </div>
+    </div>
+
+
+    <!--<div class="row">
+      <ion-scroll direction="x" class="wide-as-needed" scroll="true" overflow-scroll="{{scroll === true ? 'true': scroll === false ? 'false' : 'true'}}">
+        <div class="row shop-products-narrow-cards-outer shop-product-cards-scroller" style="width: 500px;">
+          <div ng-repeat="list in listExchange ">
+            <div class="list card">
+              <div class="item item-body">
+                <div class="row">
+                  <div class="col">
+                    <pre-img ratio="_2_1" helper-class="shop-home-option-image-outer">
+                      <img class="img-macth" ng-src="{{list.user.profileImageURL}}" spinner-on-load>
+                    </pre-img>
+                  </div>
+                  <div class="col text-left">
+                    <p class="des"><b>{{list.currency_form.base}}</b> </p>
+                    <p class="des">{{list.amount_form | number:2}}</p>
+                    <p class="des"><b>{{list.currency_to.base}}</b></p>
+                    <p class="des">{{list.amount_to | number:2}}</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item item-body">
+                <h2 class="card-title text-center">{{list.user.displayName}}</h2>
+                <p class="card-description"><b>{{list.lacation.des}}</b>
+                  <p class="card-description"><b>35.1 km</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </ion-scroll>
+    </div>-->
+
+
+    <!--box-->
+    <div class="row">
+      
+        <ion-scroll direction="x" class="wide-as-needed" scroll="true" overflow-scroll="{{scroll === true ? 'true': scroll === false ? 'false' : 'true'}}">
+          <div class="row shop-products-narrow-cards-outer shop-product-cards-scroller" style="width: 600px;">
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="mcfly.jpg">
+                <h2>Marty McFly</h2>
+                <p>November 05, 1955</p>
+              </div>
+              <div class="item item-body">
+                <p>
+                  This is a "Facebook"
+                </p>
+              </div>
+            </div>
+            <!--2-->
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="mcfly.jpg">
+                <h2>Marty McFly</h2>
+                <p>November 05, 1955</p>
+              </div>
+              <div class="item item-body">
+                <p>
+                  This is a "Facebook2"
+                </p>
+              </div>
+            </div>
+
+             <!--3-->
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="mcfly.jpg">
+                <h2>Marty McFly</h2>
+                <p>November 05, 1955</p>
+              </div>
+              <div class="item item-body">
+                <p>
+                  This is a "Facebook2"
+                </p>
+              </div>
+            </div>
+
+            
+          </div>
+   
+      </ion-scroll>
+    </div>
+
+
+     <!--box2-->
+    <div class="row">
+      <ion-scroll direction="x" class="wide-as-needed" scroll="true" overflow-scroll="{{scroll === true ? 'true': scroll === false ? 'false' : 'true'}}">
+        
+          <div class="row shop-products-narrow-cards-outer shop-product-cards-scroller" style="width: 600px;">
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="mcfly.jpg">
+                <h2>Marty McFly</h2>
+                <p>November 05, 1955</p>
+              </div>
+              <div class="item item-body">
+                <p>
+                  This is a "Facebook"
+                </p>
+              </div>
+            </div>
+            <!--2-->
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="mcfly.jpg">
+                <h2>Marty McFly</h2>
+                <p>November 05, 1955</p>
+              </div>
+              <div class="item item-body">
+                <p>
+                  This is a "Facebook2"
+                </p>
+              </div>
+            </div>
+
+             <!--3-->
+            <div class="list card">
+              <div class="item item-avatar">
+                <img src="mcfly.jpg">
+                <h2>Marty McFly</h2>
+                <p>November 05, 1955</p>
+              </div>
+              <div class="item item-body">
+                <p>
+                  This is a "Facebook2"
+                </p>
+              </div>
+            </div>
+
+
+
+          </div>
+       
+      </ion-scroll>
+    </div>
+
+
+
+    
+
+
+
+
+
+
+
+
+  </ion-content>
+</ion-view>

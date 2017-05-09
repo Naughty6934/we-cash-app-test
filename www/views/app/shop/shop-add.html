@@ -1,0 +1,92 @@
+<ion-view view-title="Add" class="shop-sale-view">
+  <ion-content>
+    
+    <div class="list">
+      <!--currency_from-->
+  <label class="item item-input item-select">
+          <div class="input-label">
+           Form :
+          </div>
+          <select ng-model="data.currency_from" ng-options="ex as ex.currency for ex in rates.rates track by ex.currency"></select>
+        </label>
+
+  <!--amount_from-->
+  <label class="item item-input">
+    <span class="input-label">Amount : </span>
+    <input type="Number" ng-model="data.amount_from">
+  </label>
+
+<!--currency_to-->
+  <label class="item item-input item-select">
+          <div class="input-label">
+           To :
+          </div>
+          <select ng-model="data.currency_to" ng-options="ex as ex.currency for ex in rates.rates track by ex.currency"></select>
+        </label>
+
+  <!--amount_to-->
+  <label class="item item-input">
+    <span class="input-label">Amount : </span>
+    <input type="Number" ng-model="data.amount_to">
+  </label>
+
+  <!--location-->
+  <label class="item item-input">
+    <span class="input-label">Location : </span>
+    <input type="text" ng-model="data.location">
+  </label>
+
+  <!--schedule-->
+  <label class="item item-input">
+    <span class="input-label">Schedule : </span>
+    <input type="Date" ng-model="data.schedule">
+  </label>
+
+
+
+</div>
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col">
+    <button class="button button-block button-balanced" ng-click="submitadd()">
+ Submit
+</button>
+</div>
+  
+  <div class="col">
+    <button class="button button-block button-assertive" ng-click="canceladd()">
+ Cancel
+</button>
+</div>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </ion-content>
+</ion-view>
